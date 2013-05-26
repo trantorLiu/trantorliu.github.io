@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  《JS網頁開發者》
-date:   2013-04-8 10:00:00
+title: 《JS網頁開發者》
+date: 2013-04-8 10:00:00
 categories: posts
 ---
 
