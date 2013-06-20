@@ -35,7 +35,7 @@ Ruby on Rails的團隊37signals在他們的["Getting Real"](http://gettingreal.3
 但我想把他作成一個自由發揮的平台，  
 不一定只能po些一板一眼的履歷，  
 而是**一個你想怎麼分享就怎麼分享的平台**。  
-以我的履歷為例，  
+以[我的履歷](http://cakeresume.com/trantor.liu)為例，  
 我的自介只說"I like swimming and reading. Checkout my book shelf on Macondo.tw."  
 之後就是我的作品和經歷。  
 反正重要的是作品，不是一堆廢話。  
