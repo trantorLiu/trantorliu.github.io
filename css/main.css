@@ -34,6 +34,13 @@ table {
   font: 100%;
 }
 
+blockquote {
+  margin: 1em 2em;
+  color: #999;
+  border-left: 2px solid #999;
+  padding-left: 1em;
+}
+
 /*****************************************************************************/
 /*
 /* Home
