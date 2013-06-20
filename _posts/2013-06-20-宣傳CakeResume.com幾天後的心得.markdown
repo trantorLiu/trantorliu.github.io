@@ -15,7 +15,7 @@ categories: posts
 可能會讓Cake跟市面上一大堆履歷服務網站沒太大區隔；  
 我相信Cake所強調的自由編輯特色仍然有很多人需要，  
 至少我自己當初就是找不到這樣的服務才做出Cake的；  
-Ruby on Rails的團隊37signals在他們的"[Getting Real](http://gettingreal.37signals.com/)"一書中說到：  
+Ruby on Rails的團隊37signals在他們的["Getting Real"](http://gettingreal.37signals.com/)一書中說到：  
 > If you're having this problem, it's likely hundreds of thousands of others are in the same boat.
 這是多麼簡單的道理！  
 哪怕有這樣需求的人是少數，  
