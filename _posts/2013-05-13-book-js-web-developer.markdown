@@ -1,9 +1,11 @@
 ---
 layout: post
-title: 《JS網頁開發者》
+title: 寫了一本書《JS網頁開發者》
 date: 2013-04-8 10:00:00
 categories: posts
 ---
+
+**注意，本書目前暫時停止撰寫，因為寫到一半筆者才發覺自己有更多東西得學習。(2013/12)**
 
 作者：劉君羿（trantor.liu@gmail.com）  
 對象：JS進修者，JS前後台工程師，Node.js初學者  
