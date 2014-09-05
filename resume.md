@@ -5,6 +5,8 @@ layout: standalone
 # Chun-Yi Liu
 A Full Stack Web Developer
 
+![Trantor Liu](/images/trantor.jpg)
+
 ## About
 Site: [trantor.tw](http://trantor.tw)  
 Born: March 30, 1991  
