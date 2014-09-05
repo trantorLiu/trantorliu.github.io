@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Chun-Yi Liu
 A Full Stack Web Developer
 
