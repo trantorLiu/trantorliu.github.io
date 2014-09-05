@@ -66,7 +66,7 @@ High Intermediate [GEPT](https://www.lttc.ntu.edu.tw/E_LTTC/E_GEPT.htm)
 ## More about the [ArmyApp](http://armyapp.tw)
 It's an app I built with my college friends when I was a second lieutenant chief counselor at Republic of China Armed Forces. It caused a sensation in the army and became [a news](http://armyapp.tw/#video) in Taiwan. And thus the the Chief of the Republic of China Army gave a prize to me. The Army Command Headquarters also gave me a change to lead a short term project for information digitization.
 
-## Open Source Contributions (GitHub Repositories)
+## Open Source Contributions ([GitHub Repositories](https://github.com/trantorLiu))
 - [bootstrap-editor](https://github.com/trantorLiu/bootstrap-editor)
 - [bootstrap-wysihtml5](https://github.com/trantorLiu/bootstrap-wysihtml5)
 - [rendr-example-blog](https://github.com/trantorLiu/rendr-example-blog)
