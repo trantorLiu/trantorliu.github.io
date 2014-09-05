@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: standalone
 ---
 
 # Chun-Yi Liu
