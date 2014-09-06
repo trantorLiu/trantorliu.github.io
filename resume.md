@@ -52,7 +52,7 @@ High Intermediate [GEPT](https://www.lttc.ntu.edu.tw/E_LTTC/E_GEPT.htm)
 - Project Owner, pttdm.com, 2011
 - Web Developer Intern, [Fandora](http://fandora.tw/), 2012
 - Web Developer, [Lumieres](http://trantor.tw/%E6%8F%AD%E5%A0%B1.pdf) news, 2012
-- Node.js Tutor (I held two Node.js classes for about 20 of my friends spontaneously), 2012
+- Node.js Tutor (I held two Node.js lessons for about 20 of my friends spontaneously), 2012
 - Writer, [_JS Web Developer_](http://trantor.tw/JS%E7%B6%B2%E9%A0%81%E9%96%8B%E7%99%BC%E8%80%85%EF%BC%88%E8%A9%A6%E8%AE%80%E7%89%88%EF%BC%89.pdf), 2012
 - Project Owner, Macondo online book store, 2012 - 2013
 - Undergraduate Intern Students, [Mobile Communications Networking Lab](http://www.pcs.csie.ntu.edu.tw/labinfo_page), 2012 - 2013
