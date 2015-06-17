@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 詩《灑脫》
+title: 《灑脫》
 date: 2015-05-25 23:30:00
 categories: posts
 ---
