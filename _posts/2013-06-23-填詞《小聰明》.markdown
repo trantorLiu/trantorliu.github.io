@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 《小聰明》
+title: 填詞《小聰明》
 date: 2013-06-23 22:40:00
 categories: posts
 ---
