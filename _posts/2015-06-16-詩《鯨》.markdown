@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 《鯨》
+title: 詩《鯨》
 date: 2015-06-16 20:53:00
 categories: posts
 ---
