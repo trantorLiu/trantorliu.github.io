@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 宣傳CakeResume.com幾天後的心得
-date: 2013-06-20 11:00:00
+date: 2013-06-20 11:00:00 +08:00
 categories: posts
 ---
 
