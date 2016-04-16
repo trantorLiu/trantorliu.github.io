@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 詩《嚮往》
-date: 2013-07-03 21:10:00
+date: 2013-07-03 21:10:00 +08:00
 categories: posts
 ---
 
