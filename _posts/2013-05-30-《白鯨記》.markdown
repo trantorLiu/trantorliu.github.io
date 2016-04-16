@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 《白鯨記》
-date: 2013-05-30 21:19:00
+date: 2013-05-30 21:19:00 +08:00
 categories: posts
 ---
 
