@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 詩《說故事的人》
-date: 2015-09-01 01:00:00
+date: 2015-09-01 01:00:00 +08:00
 categories: posts
 ---
 

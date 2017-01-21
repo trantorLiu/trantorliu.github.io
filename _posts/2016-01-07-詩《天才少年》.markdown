@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 詩《天才少年》
-date: 2016-01-07 10:00:00
+date: 2016-01-07 10:00:00 +08:00
 categories: posts
 ---
 

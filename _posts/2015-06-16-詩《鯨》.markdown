@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 詩《鯨》
-date: 2015-06-16 20:53:00
+date: 2015-06-16 20:53:00 +08:00
 categories: posts
 ---
 
