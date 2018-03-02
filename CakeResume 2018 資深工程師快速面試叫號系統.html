@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CakeResume 2018 資深工程師快速面試叫號系統</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #2D3047;
+    }
+    #blocks {
+      padding: 40px;
+      max-width: 99%;
+      margin: 0 auto;
+      overflow: auto;
+    }
+    .block {
+      height: 400px;
+      width: 300px;
+      float: left;
+      background: white;
+      text-align: center;
+      margin: 30px 30px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .block.animated .num {
+      color: #FF5A5F;
+    }
+
+    .title {
+      font-size: 32px;
+      font-weight: bold;
+      padding-bottom: 10px;
+      border-bottom: 1px solid black;
+      background: #efefef;
+      padding: 20px;
+    }
+
+    .num {
+      font-size: 168px;
+      transition: color 1s ease;
+      -webkit-transition: color: 1s;
+    }
+
+    .next-num, .timer {
+      font-size: 20px;
+    }
+
+    .next-num:after {
+      content: '號請準備';
+      margin-left: 5px;
+    }
+
+    .timer {
+      color: #aaa;
+    }
+
+    .timer:before {
+      content: '已進行';
+      margin-right: 5px;
+    }
+
+    .timer:after {
+      content: '分鐘';
+      margin-left: 5px;
+    }
+
+    #blocks.show-timer-only .num, #blocks.show-timer-only .next-num {
+      display: none;
+    }
+
+    #blocks.show-timer-only .timer {
+      color: initial;
+      font-size: 168px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      line-height: 180px;
+    }
+
+    #blocks.show-timer-only .timer:before {
+      content: '已進行';
+      display: block;
+      color: #aaa;
+      font-size: 20px;
+      line-height: 1em;
+    }
+
+    #blocks.show-timer-only .timer:after {
+      content: '分鐘';
+      display: block;
+      color: #aaa;
+      font-size: 20px;
+      line-height: 1em;
+    }
+
+  </style>
+
+  <script>
+    var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1BO2o4mrruHec7DZSWnIspxSEdu4nItvU2IomuawtobI/edit?usp=sharing';
+
+    var timers = {};
+
+    function getData() {
+      Tabletop.init({
+        key: publicSpreadsheetUrl,
+        callback: updateData,
+        simpleSheet: true
+      });
+    };
+
+    function updateData(data) {
+      _.each(data, function(r) {
+        var $block = $('[data-page="' + r.page + '"]');
+        if ($block.length > 0) {
+          updateBlock(r);
+        } else {
+          addBlock(r);
+          resetTimer(r.page);
+        }
+      });
+    };
+
+    function addBlock(r) {
+      var $block = $('<div class="block"><div class="title"></div><div class="num"></div><div class="timer"></div><div class="next-num"></div></div>').attr('data-page', r.page);
+      $block.find('.title').text(r.page);
+      $block.find('.num').text(r.currentNum);
+      $block.find('.next-num').text(r.nextNum);
+
+      $('#blocks').append($block);
+    };
+
+    function updateBlock(r) {
+      var $block = $('[data-page="' + r.page + '"]');
+      var $num = $block.find('.num');
+      var $nextNum = $block.find('.next-num');
+
+      $nextNum.text(r.nextNum);
+
+      if ($num.text() != r.currentNum) {
+        $num.text(r.currentNum);
+        $block.addClass('animated swing');
+        resetTimer(r.page);
+
+        setTimeout(function() {
+          $block.removeClass('animated swing');
+        }, 30000);
+      }
+    };
+
+    function resetTimer(pageName) {
+      timers[pageName] = moment.now();
+    };
+
+    function renderTimers() {
+      _.each(timers, function (startedAt, page) {
+        var $block = $('[data-page="' + page + '"]');
+        var $timer = $block.find('.timer');
+
+        var diffSecs = parseInt(moment().diff(timers[page]) / 1000);
+
+        var newTimer = moment().startOf('day').seconds(diffSecs).format('m');
+        $timer.text(newTimer);
+      })
+    };
+
+    $(function() {
+      setInterval(function() {
+        getData();
+      }, 1000);
+
+      setInterval(renderTimers, 1000);
+
+      if (window.location.search.includes('timer')) {
+        $('#blocks').addClass('show-timer-only');
+      }
+    });
+  </script>
+</head>
+<body>
+  <div id="blocks"></div>
+</body>
+</html>
