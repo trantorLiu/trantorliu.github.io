@@ -8,12 +8,12 @@ A Full Stack Web Developer
 ![Trantor Liu](/images/trantor.jpg)
 
 ## About
-Site: [trantor.tw](http://trantor.tw)  
-Born: March 30, 1991  
+Site: [trantor.tw](http://trantor.tw)
+Born: March 30, 1991
 Location: Taipei, Taiwan
 
 ## Contact Me
-Email: <mailto:trantor.liu@gmail.com>  
+Email: <mailto:trantor.liu@gmail.com>
 [Facebook](https://www.facebook.com/trantor.liu)
 
 
@@ -29,7 +29,7 @@ Email: <mailto:trantor.liu@gmail.com>
 
 ## Education
 - CSIE (Computer Science and Information Engineering), National Taiwan University, 2009 - 2013
-- New Taipei Municipal Yongping High School, 2006 - 2009  
+- New Taipei Municipal Yongping High School, 2006 - 2009
 
 ## English Level
 High Intermediate [GEPT](https://www.lttc.ntu.edu.tw/E_LTTC/E_GEPT.htm)
@@ -47,7 +47,7 @@ High Intermediate [GEPT](https://www.lttc.ntu.edu.tw/E_LTTC/E_GEPT.htm)
 ## Experience
 - Web Developer, [Codementor](https://www.codementor.io/), 2014
 - Project Owner, [40 Outlaws](http://www.40outlaws.com/) group buying platform, 2014
-- Project Owner, [ArmyApp](http://armyapp.tw) for Republic of China Army, 2014
+- Project Owner, [ArmyApp](http://armyapp.org) for Republic of China Army, 2014
 - Second Lieutenant Chief Counselor, Republic of China Army, 2013 - 2014
 - Web Developer Intern, [PingLuWeb](http://pingluweb.com/), 2013
 - Project Owner, CakeResume online resume platform, 2013
@@ -64,8 +64,8 @@ High Intermediate [GEPT](https://www.lttc.ntu.edu.tw/E_LTTC/E_GEPT.htm)
 - Member, NTU Guitar Club, 2010
 - Chinese Teacher, [SeedElite](https://www.facebook.com/SeedElite) Education Camp, 2009 - 2010
 
-## More about the [ArmyApp](http://armyapp.tw)
-It's an app I built with my college friends when I was a second lieutenant chief counselor at Republic of China Armed Forces. It help soldiers to report their locations during their vacation in 3 seconds. It caused a sensation in the army and became [a news](http://armyapp.tw/#video) in Taiwan. And thus the Chief of the Republic of China Army gave a prize to me. The Army Command Headquarters also gave me a chance to lead a short term project to digitalize some information in the army.
+## More about the [ArmyApp](http://armyapp.org)
+It's an app I built with my college friends when I was a second lieutenant chief counselor at Republic of China Armed Forces. It help soldiers to report their locations during their vacation in 3 seconds. It caused a sensation in the army and became [a news](http://armyapp.org/#video) in Taiwan. And thus the Chief of the Republic of China Army gave a prize to me. The Army Command Headquarters also gave me a chance to lead a short term project to digitalize some information in the army.
 
 ## Open Source Contributions ([GitHub Repositories](https://github.com/trantorLiu))
 - [bootstrap-editor](https://github.com/trantorLiu/bootstrap-editor)
