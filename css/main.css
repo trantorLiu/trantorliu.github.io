@@ -61,7 +61,7 @@ ul.posts span {
 /*
 /*****************************************************************************/
 .avatar {
-  width: 600px;
+  width: 400px;
   margin-top: 12px;
   max-width: 100%;
 }
@@ -83,7 +83,6 @@ ul.posts span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
   max-width: 100%;
   line-height: 1.5em;
   padding: 24px 12px 32px;
