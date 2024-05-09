@@ -119,6 +119,7 @@ ul.posts span {
 .site .header a.extra {
   color: #aaa;
   margin-left: 1.2em;
+  font-size: 1.2em;
 }
 
 .site .header a.extra:hover {
