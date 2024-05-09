@@ -12,6 +12,8 @@ body {
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 h1 { margin-bottom: 1em; }
@@ -61,6 +63,7 @@ ul.posts span {
 .avatar {
   width: 600px;
   margin-top: 12px;
+  max-width: 100%;
 }
 .job img {
   float: left;
@@ -81,8 +84,9 @@ ul.posts span {
   font-size: 115%;
   text-align: justify;
   width: 42em;
-  margin: 3em auto 2em;
+  max-width: 100%;
   line-height: 1.5em;
+  padding: 24px 12px 32px;
 }
 
 .site .header a {
@@ -104,7 +108,7 @@ ul.posts span {
 
 .site .header a.extra {
   color: #aaa;
-  margin-left: 1em;
+  margin-left: 1.2em;
 }
 
 .site .header a.extra:hover {
